@@ -5,6 +5,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,100italic,300italic,400,400italic,700,700italic,900,900italic);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900italic,900);
+@import url(https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap);
 
 /*=============== General Styling ===================*/
 html,
@@ -1280,8 +1281,9 @@ body.move {
 .center-title>span {
     color: #4a4a4a;
     float: left;
-    font-family: playfair display;
-    font-size: 14px;
+    font-family: Alumni Sans Pinstripe;
+    font-size: 17px;
+    font-weight: 700;
     font-style: italic;
     letter-spacing: 2px;
     margin-bottom: 5px;
@@ -1579,8 +1581,9 @@ body.move {
 .side-title>span {
     color: #4a4a4a;
     float: left;
-    font-family: playfair display;
-    font-size: 14px;
+    font-family: Alumni Sans Pinstripe;
+    font-size: 17px;
+    font-weight: 700;
     font-style: italic;
     letter-spacing: 2px;
     width: 100%;
@@ -1694,7 +1697,7 @@ body.move {
 .skill .progress .progress-bar {
     box-shadow: none;
     position: absolute;
-    left: 50%;
+    left: 40%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -11070,11 +11073,11 @@ a.small-btn {
 }
 
 .wdth70 {
-    width: 85%;
+    width: 90%;
 }
 
 .wdth42 {
-    width: 90%;
+    width: 100%;
 }
 
 .wdth69 {
