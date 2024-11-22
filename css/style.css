@@ -5,7 +5,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,100italic,300italic,400,400italic,700,700italic,900,900italic);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900italic,900);
-@import url(https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap);
 
 /*=============== General Styling ===================*/
 html,
@@ -36,7 +36,7 @@ h6 {
 }
 
 p {
-    font-family: lato;
+    font-family: Alumni Sans Pinstripe;
     color: #424242;
     line-height: 30px;
     letter-spacing: 0.8px;
@@ -1271,7 +1271,7 @@ body.move {
 /*=============== Services Style ===================*/
 .center-title {
     float: left;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     padding-bottom: 20px;
     position: relative;
     text-align: center;
@@ -1284,7 +1284,7 @@ body.move {
     font-family: Alumni Sans Pinstripe;
     font-size: 17px;
     font-weight: 700;
-    font-style: italic;
+ 
     letter-spacing: 2px;
     margin-bottom: 5px;
     width: 100%;
@@ -1292,9 +1292,9 @@ body.move {
 
 .center-title>p {
     color: #4a4a4a;
-    font-family: playfair display;
+    font-family: Alumni Sans Pinstripe;
     font-size: 14px;
-    font-style: italic;
+    font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 5px;
     width: 100%;
@@ -1318,7 +1318,7 @@ body.move {
     background: #d3d3d3 none repeat scroll 0 0;
     bottom: 0;
     content: "";
-    height: 1px;
+    height: 0px;
     left: 50%;
     margin-left: 60px;
     position: absolute;
@@ -1426,9 +1426,12 @@ body.move {
     width: 100%;
 }
 
-.service p {
+.service>p {
     display: inline-block;
     margin: 0;
+    color: #010101;	
+	font-weight: 700;
+	line-height: 110%;
 }
 
 .service>a {
@@ -1643,7 +1646,7 @@ body.move {
     color: #424242;
     float: left;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 800;
     margin: 0;
     width: 100%;
 }
@@ -1799,9 +1802,9 @@ body.move {
 .member-name>span {
     color: #4a4a4a;
     float: left;
-    font-family: playfair display;
+    font-family: Alumni Sans Pinstripe;
     font-size: 13px;
-    font-style: italic;
+   font-weight: 700;
     letter-spacing: 1.5px;
     width: 100%;
 }
