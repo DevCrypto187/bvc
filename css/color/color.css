@@ -63,7 +63,7 @@ header nav ul li a:before,
 .toggle-item h3.active,
 .simple-tabs.style2 .nav li.active a,
 .has-dropdown:before{
-	background-color:#fb383b;
+	background-color:#0097F8;
 }
 
 .service > a:hover,
@@ -143,7 +143,7 @@ nav ul li ul li:hover > a,
 .menu > ul li:hover > a,
 .menu > ul li.active > a,
 .work .work-hover > a:hover{
-	color:#fb383b;
+	color:#0097F8;
 }
 
 .button-set a:hover,
@@ -158,5 +158,5 @@ nav ul li ul li:hover > a,
 .tagcloud > a:hover,
 .tagcloud > a:hover:before,
 .layer6{
-	border-color:#fb383b;
+	border-color:#0097F8;
 }
